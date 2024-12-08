@@ -5,7 +5,7 @@
 }
 
 body{
-  background: linear-gradient(to right, #360033, #0b8793);
+  background: linear-gradient(to right, #f496e0, #0b8793);
   font-family: sans-serif;
 }
 
@@ -41,7 +41,7 @@ form input{
 
 form button{
   color: #fff;
-  background-color: #50a8d7;
+  background-color: #1275aa;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -73,8 +73,8 @@ select{
 .select:after{
   content: "\25BC";
   position: absolute;
-  background-color: #50a8d7;
-  color: #1f3493;
+  background-color: #1275aa;
+  color: #c7cbdd;
   top: 0;
   right: 0;
   padding: 1rem;
@@ -85,7 +85,7 @@ select{
 
 .select:hover:after{
   background-color: #fff;
-  color: #340436;
+  color: #ae94ae;
 }
 
 .todo-container{
